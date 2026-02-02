@@ -177,6 +177,7 @@ TimelineView(.animation) { context in
 ### Background
 
 - **Starfall**
+![](Resources_Effects/starfall.gif)
 ```swift
 StarfallBackgroundView(starCount: 400)
 ```
