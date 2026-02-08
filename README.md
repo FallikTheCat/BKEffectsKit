@@ -33,7 +33,7 @@ A specialized SwiftUI library for high-performance visual effects, custom animat
 Swift Package Manager (SPM)
 In Xcode, go to File > Add Packages...
 
-Enter the repository URL: [https://github.com/FallikTheCat/BKEffectsKit](https://github.com/FallikTheCat/BKEffectsKit)
+Enter the repository URL: [https://github.com/KocBaturay/BKEffectsKit](https://github.com/KocBaturay/BKEffectsKit)
 
 Select Up to Next Major Version and click Add Package.
 
