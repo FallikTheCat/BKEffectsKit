@@ -48,7 +48,12 @@ Select Up to Next Major Version and click Add Package.
 ![](Resources_Effects/dots.gif)
 
 ```swift
-WaitingDotsAnimationView(dotCount: 3, dotColor: .black, dotSize: 15, animationDuration: 0.5)
+WaitingDotsAnimationView(
+  dotCount: 3,
+  dotColor: .black,
+  dotSize: 15,
+  animationDuration: 0.5
+)
 ```
 
 - **Loading Orbs**
@@ -56,7 +61,12 @@ WaitingDotsAnimationView(dotCount: 3, dotColor: .black, dotSize: 15, animationDu
 ![](Resources_Effects/orbs.gif)
 
 ```swift
-LoadingOrbAnimation(size: 45, color: .orange, speed: 1.75, glowOpacity: 1)
+LoadingOrbAnimation(
+  size: 45,
+  color: .orange,
+  speed: 1.75,
+  glowOpacity: 1
+)
 ```
 
 - **Wave Grid**
@@ -64,7 +74,14 @@ LoadingOrbAnimation(size: 45, color: .orange, speed: 1.75, glowOpacity: 1)
 ![](Resources_Effects/wave.gif)
 
 ```swift
-WaveGridAnimation(rows: 4, columns: 4, nodeColor: .black, lineColor: .orange.opacity(0.2), nodeSize: 4, spacing: 10)
+WaveGridAnimation(
+  rows: 4,
+  columns: 4,
+  nodeColor: .black,
+  lineColor: .orange.opacity(0.2),
+  nodeSize: 4,
+  spacing: 10
+)
 ```
 
 ### Text Effects
@@ -74,7 +91,13 @@ WaveGridAnimation(rows: 4, columns: 4, nodeColor: .black, lineColor: .orange.opa
 ![](Resources_Effects/hacker.gif)
 
 ```swift
-HackerTextEffect(text: "Hacker Effect", trigger: trigger, transition: .identity, duration: 3, speed: 0.06)
+HackerTextEffect(
+  text: "Hacker Effect",
+  trigger: trigger,
+  transition: .identity,
+  duration: 3,
+  speed: 0.06
+)
 ```
 
 - **Numeric Transition**
@@ -82,7 +105,11 @@ HackerTextEffect(text: "Hacker Effect", trigger: trigger, transition: .identity,
 ![](Resources_Effects/numeric.gif)
 
 ```swift
-NumericTransitionEffect(value: $number, font: .title3.bold(), color: .black)
+NumericTransitionEffect(
+  value: $number,
+  font: .title3.bold(),
+  color: .black
+)
 ```
   
 - **Text Cycler**
@@ -90,7 +117,10 @@ NumericTransitionEffect(value: $number, font: .title3.bold(), color: .black)
 ![](Resources_Effects/slide.gif)
 
 ```swift
-TextCyclerEffect(messages: messages, cycleDuration: 2.5)
+TextCyclerEffect(
+  messages: messages,
+  cycleDuration: 2.5
+)
 ```
 
 - **Typer Effect**
@@ -98,7 +128,10 @@ TextCyclerEffect(messages: messages, cycleDuration: 2.5)
 ![](Resources_Effects/typer.gif)
 
 ```swift
-TyperEffect(text: "Typer Effect", interval: 0.2)
+TyperEffect(
+  text: "Typer Effect",
+  interval: 0.2
+)
 ```
 
 ### Visual Effects
